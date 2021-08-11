@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Cake.Raygun</id>
+    <version>0.0.1.1485904101</version>
+    <authors>Geoffrey Huntley</authors>
+    <owners>ghuntley</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://ghuntley.com/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/cake-build/graphics/master/png/cake-medium.png</iconUrl>
+    <description>Cake Build addin for Raygun.</description>
+    <summary>Cake Build addin for Raygun.</summary>
+    <releaseNotes>- Initial release.</releaseNotes>
+    <copyright>Copyright (c) Geoffrey Huntley</copyright>
+    <language>en-us</language>
+    <tags>Cake Script Build Xamarin iOS Raygun</tags>
+  </metadata>
+</package>

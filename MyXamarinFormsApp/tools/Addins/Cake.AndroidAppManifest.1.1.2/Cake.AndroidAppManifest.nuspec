@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Cake.AndroidAppManifest</id>
+    <version>1.1.2</version>
+    <title>Cake.AndroidAppManifest</title>
+    <authors>Geoffrey Huntley, jzeferino</authors>
+    <owners>Geoffrey Huntley, jzeferino</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/cake-contrib/Cake.AndroidAppManifest</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
+    <description>Cake Build addin for [de]serializing and updating an Android AppManifest.</description>
+    <releaseNotes>- Upgraded to Cake 0.33.0.</releaseNotes>
+    <tags>Cake Script Build Xamarin Android</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Threading.Tasks.Parallel" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

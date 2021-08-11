@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cake.AndroidAppManifest</name>
+    </assembly>
+    <members>
+        <member name="T:Cake.AndroidAppManifest.AndroidAppManifestAliases">
+            <summary>
+                Contains functionality to work with Android AppManifest files.
+            </summary>
+        </member>
+        <member name="M:Cake.AndroidAppManifest.AndroidAppManifestAliases.DeserializeAppManifest(Cake.Core.ICakeContext,System.String)">
+            <summary>
+                Deserializes the Android AppManifest
+            </summary>
+            <param name="context"></param>
+            <param name="xml">appmanifest xml as string</param>
+            <returns>deserialized appmanifest</returns>
+        </member>
+        <member name="M:Cake.AndroidAppManifest.AndroidAppManifestAliases.DeserializeAppManifest(Cake.Core.ICakeContext,Cake.Core.IO.FilePath)">
+            <summary>
+                Serializes the Android AppManifest
+            </summary>
+            <param name="context"></param>
+            <param name="file">filepath to appmanifest xml</param>
+            <returns></returns>
+        </member>
+        <member name="M:Cake.AndroidAppManifest.AndroidAppManifestAliases.SerializeAppManifest(Cake.Core.ICakeContext,Cake.Core.IO.FilePath,Cake.AndroidAppManifest.AndroidAppManifest)">
+            <summary>
+                Serializes a AppManifest into the specified file.
+            </summary>
+            <param name="context"></param>
+            <param name="file">target file</param>
+            <param name="manifest"></param>
+        </member>
+    </members>
+</doc>
